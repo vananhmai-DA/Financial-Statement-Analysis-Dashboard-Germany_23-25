@@ -39,7 +39,6 @@ This dashboard is designed for the management team, especially:
 - CFO / Finance Manager
 - COO
 - Commercial Director
-- Business Analyst / BI Analyst
 
 The report supports decisions related to growth, profitability, cost control, cash flow, working capital, and financial planning.
 
