@@ -1,5 +1,31 @@
 # Financial Statement Analysis Dashboard | German Market Case Study
+## Table of Contents
 
+- [1. Project Overview](#1-project-overview)
+- [2. Business Problem](#2-business-problem)
+- [3. Report Audience](#3-report-audience)
+- [4. Dataset and Data Model](#4-dataset-and-data-model)
+- [5. Design Thinking Process](#5-design-thinking-process)
+  - [Empathize](#empathize)
+  - [Empathy Map](#empathy-map)
+  - [North Star Metric and Define POV](#north-star-metric-and-define-pov)
+- [6. Dashboard Insights](#6-dashboard-insights)
+  - [6.1 Executive Overview](#61-executive-overview)
+  - [6.2 P&L Analysis](#62-pl-analysis)
+  - [6.3 Revenue Growth Drivers](#63-revenue-growth-drivers)
+  - [6.4 Cost Optimization](#64-cost-optimization)
+  - [6.5 Financial Health and Balance Sheet](#65-financial-health-and-balance-sheet)
+  - [6.6 Cash Flow and Working Capital](#66-cash-flow-and-working-capital)
+  - [6.7 AR/AP and Cash Risk](#67-arap-and-cash-risk)
+- [7. Executive Summary](#7-executive-summary)
+- [8. Business Recommendations](#8-business-recommendations)
+  - [8.1 Grow selectively in proven revenue engines](#81-grow-selectively-in-proven-revenue-engines)
+  - [8.2 Introduce a controlled discount approval policy](#82-introduce-a-controlled-discount-approval-policy)
+  - [8.3 Optimize costs through productivity, not broad cost cutting](#83-optimize-costs-through-productivity-not-broad-cost-cutting)
+  - [8.4 Strengthen AR collection and credit control](#84-strengthen-ar-collection-and-credit-control)
+  - [8.5 Use the strong cash position carefully](#85-use-the-strong-cash-position-carefully)
+- [9. Final Conclusion](#9-final-conclusion)
+  
 ## 1. Project Overview
 
 This project analyzes the financial performance of **EuroFit Workplace Solutions GmbH**, a synthetic company operating in the German and European workplace solutions market.
