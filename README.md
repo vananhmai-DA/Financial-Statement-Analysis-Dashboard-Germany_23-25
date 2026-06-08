@@ -72,7 +72,7 @@ The company shows positive financial growth, with total revenue reaching **€7.
 
 ![P&L Analysis](images/P%26L%20Analysis.png)
 
-Profitability improved mainly because the company controlled costs better than planned. Revenue was slightly above budget by **1.1%**, while COGS was **8.5% lower than budget** and OPEX was **8.3% lower than budget**. As a result, EBITDA reached **€1.70M**, exceeding budget by **58.7%**, with an EBITDA margin of **22.36%**. However, COGS and OPEX still absorb a large share of revenue, so management should protect gross margin and review major cost groups such as Payroll and Sales & Marketing.
+Profitability improved mainly because the company controlled costs better than planned. Revenue was slightly above budget by **1.1%**, while COGS was **8.5% lower than budget** and OPEX was **8.3% lower than budget**. As a result, EBITDA reached **€1.07M**, exceeding budget by **58.7%**, with an EBITDA margin of **22.36%**. However, COGS and OPEX still absorb a large share of revenue, so management should protect gross margin and review major cost groups such as Payroll and Sales & Marketing.
 
 ### 6.3 Revenue Growth Drivers
 
