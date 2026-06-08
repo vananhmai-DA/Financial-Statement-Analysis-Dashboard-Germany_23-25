@@ -52,11 +52,18 @@ The relationship view below shows the final Power BI data model.
 
 The dashboard was designed using a Design Thinking approach to clarify the target users, business pain points, key decision metrics, and dashboard direction before building visuals in Power BI.
 
+### Empathize
+
 ![Empathize](images/Empathize.png)
+
+### Empathy Map
 
 ![Empathy Map](images/Empathy%20Map.png)
 
-# Financial Performance Dashboard Analysis
+### North Star Metric and Define POV
+
+![North Star Metric and Define POV](images/Northstar%20Metric%20%26%20Define%20POV.png)
+
 
 ## 6. Dashboard Insights
 
@@ -173,6 +180,8 @@ A practical cash allocation rule is to keep a minimum cash reserve equal to **3â
 This dashboard supports a **decision-oriented financial management approach**. It does not only show what happened in the business, but also explains why the results matter and what management should do next.
 
 The overall conclusion is that EuroFit Workplace Solutions GmbH should follow a **controlled profitable growth strategy**: grow selectively, protect margin, optimize cost productivity, and convert profit into cash faster. The company is financially healthy and has room to grow, but expansion should be disciplined. Management should invest in high-performing segments only when growth is supported by healthy margin, controlled discount, and reliable cash collection.
+
+
 
 
 ![North Star Metric and Define POV](images/Northstar%20Metric%20%26%20Define%20POV.png)
