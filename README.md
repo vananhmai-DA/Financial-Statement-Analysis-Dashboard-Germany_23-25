@@ -54,7 +54,6 @@ The dataset contains multiple financial tables used to build a management-level 
 | Dim_Product | Product and category information |
 | Dim_Channel | Sales channel information |
 | Dim_Customer | Customer, country, segment, and industry information |
-| Dim_Account | Financial account structure |
 | Fact_Revenue | Revenue transactions including units, price, discount, COGS, and gross profit |
 | Fact_Expense | Operating expenses by department, cost group, and cost behavior |
 | Fact_Balance_Sheet | Monthly balance sheet data |
@@ -64,20 +63,11 @@ The dataset contains multiple financial tables used to build a management-level 
 
 ### Data Model Logic
 
-The model follows a star-schema approach. Fact tables store revenue, expenses, balance sheet values, cash flow movements, budget data, and AR/AP records. Dimension tables provide context for time, product, customer, channel, and account analysis.
+The data model mainly follows a star-schema approach, with **Dim_Date** as the central time dimension connected to all financial fact tables.
 
-Key relationships include:
+Product, channel, customer, and country dimensions are used mainly for revenue and geographic analysis. Financial statement tables such as expense, balance sheet, cash flow, budget, and AR/AP are analyzed through their own reporting line fields, such as cost group, line item, cash flow line, budget line, and aging bucket.
 
-| Relationship | Purpose |
-|---|---|
-| Dim_Date → Fact_Revenue | Analyze revenue by month and year |
-| Dim_Date → Fact_Expense | Analyze expenses over time |
-| Dim_Date → Fact_Balance_Sheet | Track financial position by period |
-| Dim_Date → Fact_Cash_Flow | Analyze cash flow movements |
-| Dim_Date → Fact_Budget | Compare actual results with budget |
-| Dim_Date → Fact_AR_AP | Analyze AR/AP aging and payment timing |
-| Dim_Product → Fact_Revenue | Analyze revenue and margin by product |
-| Dim_Channel → Fact_Revenue | Compare sales performance by channel |
-| Dim_Customer → Fact_Revenue | Analyze performance by customer, country, and segment |
-| Dim_Account → Fact_Balance_Sheet | Support balance sheet reporting structure |
-| Dim_Account → Fact_Cash_Flow | Support cash flow reporting structure |
+The relationship view below shows how dimension tables connect to the main fact tables in Power BI.
+
+![Data Model](images/data-model.png)
+
