@@ -1,20 +1,16 @@
 # Financial Statement Analysis Dashboard | German Market Case Study
 
-## 1. Project Summary
+## 1. Project Overview
 
 This project analyzes the financial performance of **EuroFit Workplace Solutions GmbH**, a synthetic company operating in the German and European workplace solutions market.
 
-The dashboard focuses on financial statement analysis, including revenue performance, profitability, cost structure, balance sheet health, cash flow, and working capital. It is designed to help management understand whether business growth is financially sustainable.
+The dataset covers monthly financial data from **2023 to 2025** and includes income statement, balance sheet, cash flow, budget, accounts receivable, and accounts payable data.
 
-## 2. Project Context
-
-EuroFit Workplace Solutions GmbH provides workplace-related products and services, including ergonomic office products, workplace wellness services, and digital subscriptions.
-
-The dataset covers monthly financial data from **2023 to 2025**. It reflects a realistic financial reporting environment with income statement, balance sheet, cash flow, budget, accounts receivable, and accounts payable data.
+The dashboard focuses on financial statement analysis to help management understand whether business growth is translating into profit, cash flow, and a healthy financial position.
 
 The reporting currency is **EUR**.
 
-## 3. Business Problem
+## 2. Business Problem
 
 The company is growing, but management needs to understand whether this growth creates real financial value.
 
@@ -31,7 +27,7 @@ To answer this question, the dashboard focuses on:
 - Whether profit is converted into operating cash flow
 - Whether AR/AP and working capital create financial risk
 
-## 4. Report Audience
+## 3. Report Audience
 
 This dashboard is designed for the management team, especially:
 
@@ -42,7 +38,7 @@ This dashboard is designed for the management team, especially:
 
 The report supports decisions related to growth, profitability, cost control, cash flow, working capital, and financial planning.
 
-## 5. Dataset and Data Model
+## 4. Dataset and Data Model
 
 The dataset contains multiple financial tables used to build a management-level financial statement dashboard.
 
@@ -65,7 +61,7 @@ The dataset contains multiple financial tables used to build a management-level 
 
 The data model mainly follows a star-schema approach, with **Dim_Date** as the central time dimension connected to all financial fact tables.
 
-Product, channel, customer, and country dimensions are used mainly for revenue and geographic analysis. Financial statement tables such as expense, balance sheet, cash flow, budget, and AR/AP are analyzed through their own reporting line fields, such as cost group, line item, cash flow line, budget line, and aging bucket.
+Product, channel, customer, and country fields are used mainly for revenue and geographic analysis. Financial statement tables such as expense, balance sheet, cash flow, budget, and AR/AP are analyzed through their own reporting line fields, such as cost group, line item, cash flow line, budget line, and aging bucket.
 
 The relationship view below shows how dimension tables connect to the main fact tables in Power BI.
 
