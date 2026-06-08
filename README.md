@@ -69,5 +69,4 @@ Product, channel, customer, and country dimensions are used mainly for revenue a
 
 The relationship view below shows how dimension tables connect to the main fact tables in Power BI.
 
-![Data Model](images/data-model.png)
-
+![Data Model](images/Relationship.png)
