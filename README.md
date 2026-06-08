@@ -40,29 +40,10 @@ The report supports decisions related to growth, profitability, cost control, ca
 
 ## 4. Dataset and Data Model
 
-The dataset contains multiple financial tables used to build a management-level financial statement dashboard.
+The dataset is a synthetic financial dataset covering monthly data from **2023 to 2025**. It includes revenue, expenses, balance sheet, cash flow, budget, and AR/AP data.
 
-### Main Tables
+The data model mainly uses **Dim_Date** as the central time dimension. Product, channel, and customer fields support revenue analysis, while financial statement tables are analyzed through their own reporting line fields such as cost group, line item, cash flow line, budget line, and aging bucket.
 
-| Table | Description |
-|---|---|
-| Dim_Date | Calendar table for monthly and yearly analysis |
-| Dim_Product | Product and category information |
-| Dim_Channel | Sales channel information |
-| Dim_Customer | Customer, country, segment, and industry information |
-| Fact_Revenue | Revenue transactions including units, price, discount, COGS, and gross profit |
-| Fact_Expense | Operating expenses by department, cost group, and cost behavior |
-| Fact_Balance_Sheet | Monthly balance sheet data |
-| Fact_Cash_Flow | Monthly cash flow movements |
-| Fact_Budget | Budget data for variance analysis |
-| Fact_AR_AP | Accounts receivable and accounts payable data |
-
-### Data Model Logic
-
-The data model mainly follows a star-schema approach, with **Dim_Date** as the central time dimension connected to all financial fact tables.
-
-Product, channel, customer, and country fields are used mainly for revenue and geographic analysis. Financial statement tables such as expense, balance sheet, cash flow, budget, and AR/AP are analyzed through their own reporting line fields, such as cost group, line item, cash flow line, budget line, and aging bucket.
-
-The relationship view below shows how dimension tables connect to the main fact tables in Power BI.
+The relationship view below shows the final Power BI data model.
 
 ![Data Model](images/Relationship.png)
