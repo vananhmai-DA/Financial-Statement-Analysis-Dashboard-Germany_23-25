@@ -47,3 +47,13 @@ The data model mainly uses **Dim_Date** as the central time dimension. Product, 
 The relationship view below shows the final Power BI data model.
 
 ![Data Model](images/Relationship.png)
+
+## 5. Design Thinking Process
+
+The dashboard was designed using a Design Thinking approach to clarify the target users, business pain points, key decision metrics, and dashboard direction before building visuals in Power BI.
+
+![Empathize](images/Empathize.png)
+
+![Empathy Map](images/Empathy%20Map.png)
+
+![North Star Metric and Define POV](images/Northstar%20Metric%20%26%20Define%20POV.png)
