@@ -116,7 +116,9 @@ This dashboard follows a decision-oriented and insight-driven approach. Instead 
 The Executive Overview page answers the question: **Is the company growing in a financially healthy way?**
 ![Executive Overview](images/Overview.png)
 
-The company shows positive financial growth, with total revenue reaching **€7.60M** and net profit reaching **€1.04M**. Net margin improved in 2025, which shows that revenue growth is being converted into profit more effectively than in previous years. Operating cash flow remained positive, suggesting that the company is not only profitable on paper but is also generating cash from its core business. However, late & overdue AR reached **€761.3K**, equal to **10.03% of revenue**, creating a working capital risk because part of the company’s revenue has not been collected on time. Therefore, management should continue supporting growth, but should avoid expanding too aggressively until collection performance improves.
+The company shows positive financial growth, with total revenue reaching **€7.60M** and net profit reaching **€1.04M**. Net margin improved in 2025, indicating that the company is converting revenue into profit more effectively than in previous years. Operating cash flow remained positive, which suggests that profitability is supported by cash generation from core operations, not only by accounting profit.
+
+However, late & overdue AR reached **€761.3K**, equal to **10.03% of revenue**. This indicates a working capital risk because a meaningful portion of sales has either been collected late or remains overdue. Therefore, while the company has a healthy growth and profitability profile, management should avoid expanding too aggressively until collection discipline improves. The priority should be to protect profitable growth by converting revenue into cash faster and reducing late-payment exposure.
 
 ### 6.2 P&L Analysis
 
@@ -130,41 +132,61 @@ Profitability improved mainly because the company controlled costs better than p
 The Revenue Growth Drivers page answers the question: **Where does revenue growth come from, and is it scalable without damaging margin quality?**
 ![Revenue Growth Drivers](images/Revenue%20Growth%20Drivers.png)
 
-Revenue growth is positive, with a **16.24% CAGR from 2023 to 2025** and a gross profit margin of **56.72%**. Growth is mainly driven by Germany, which generated **€5.1M**, and by Hardware, which contributed **€5.9M**. Direct Sales is the largest channel, contributing **€2.7M**. These results show that the company has clear growth engines. However, discount increased to **8.36%**, which suggests that part of the growth may depend on stronger discounting. Management should continue investing in the main growth drivers, but should also monitor margin quality by market, product, and channel. The key decision is not only to grow revenue, but to identify which growth drivers can scale profitably without relying too much on discounts.
+Revenue growth is positive, with a **16.24% CAGR from 2023 to 2025** and a gross profit margin of **56.72%**. Growth is mainly driven by Germany, which generated **€5.1M**, Hardware, which contributed **€5.9M**, and Direct Sales, which generated **€2.7M**. This shows that the company has clear and identifiable revenue engines.
+
+However, the increase in discount to **8.36%** suggests that part of the revenue growth may be supported by stronger commercial incentives. While discounting can help accelerate sales, it may also create pressure on margin quality if not controlled carefully. Therefore, management should continue investing in the strongest growth drivers, but should evaluate them not only by revenue contribution, but also by gross margin, discount level, and cash collection quality.
+
+The key decision is to scale the segments that can grow profitably and sustainably, rather than simply pushing revenue volume through higher discounts.
 
 ### 6.4 Cost Optimization
 
 The Cost Optimization page answers the question: **Which costs should management review first, and how can the company optimize costs without weakening growth capacity?**
 ![Cost Optimization](images/Cost%20Optimization.png)
 
-OPEX increased in absolute value, but cost efficiency improved because OPEX represented **34.36% of revenue**. However, **89.24% of OPEX** is classified as reviewable cost, meaning there is still significant room for optimization. Payroll and Sales & Marketing together account for more than **66% of total OPEX**, so these areas should be the main focus of management review. The goal should not be broad cost cutting, because Payroll and Sales & Marketing may directly support future growth. Instead, the company should use productivity-based optimization through payroll productivity, sales ROI, customer acquisition cost, and channel efficiency. Management should also review IT & Software for unused licenses or overlapping tools, and Bad Debt Expense for collection discipline.
+OPEX increased in absolute value, but cost efficiency improved because OPEX represented **34.36% of revenue**. This suggests that the company is growing while keeping operating expenses relatively controlled. However, **89.24% of OPEX** is classified as reviewable cost, which means management still has room to improve cost discipline without necessarily reducing business capacity.
+
+Payroll and Sales & Marketing together account for more than **66% of total OPEX**, making them the main areas for management review. However, these costs should not be cut broadly, because they may directly support sales growth, customer acquisition, and operational execution. Instead, the company should focus on productivity-based optimization, such as revenue per employee, sales ROI, customer acquisition cost, and channel efficiency.
+
+Management should also review IT & Software for unused licenses or overlapping tools, and Bad Debt Expense as a signal of weak collection discipline. The key decision is to reduce inefficient spending while protecting the cost areas that support profitable growth.
 
 ### 6.5 Financial Health and Balance Sheet
 
 The Financial Health and Balance Sheet page answers the question: **Does the company have enough financial strength to support future growth?**
 ![Financial Health and Balance Sheet](images/Financial%20Health%20%26%20Balance%20Sheet.png)
 
-The company’s financial position is strong and becoming healthier over time. Total assets increased from **€1.49M in 2023** to **€2.19M in 2025**, while equity grew to **€1.69M**. This suggests that business growth is mainly supported by retained earnings rather than heavy debt. Liquidity is very comfortable, with current assets of **€1.40M** compared with current liabilities of only **€0.09M**, resulting in a current ratio of **15.73**. Debt-to-equity decreased to **0.30**, showing low financial leverage and limited dependency on borrowing. The key decision is how to use the strong cash position efficiently without weakening the company’s low-risk balance sheet. Management should decide whether to keep excess cash for safety, use it to support controlled expansion, or invest in higher-return activities such as automation, productivity improvement, or collection systems.
+The company’s financial position is strong and becoming healthier over time. Total assets increased from **€1.49M in 2023** to **€2.19M in 2025**, while equity grew to **€1.69M**. This suggests that business growth is mainly supported by retained earnings rather than heavy debt.
+
+Liquidity is very comfortable, with current assets of **€1.40M** compared with current liabilities of only **€0.09M**, resulting in a current ratio of **15.73**. While this indicates very low short-term liquidity risk, such a high current ratio may also suggest that cash or current assets are not being used as efficiently as possible.
+
+Debt-to-equity decreased to **0.30**, showing low financial leverage and limited dependency on borrowing. The key decision is how to use the strong cash position efficiently without weakening the company’s low-risk balance sheet. Management should decide whether to keep excess cash for safety, use it to support controlled expansion, or invest in higher-return activities such as automation, productivity improvement, or collection systems.
 
 ### 6.6 Cash Flow and Working Capital
 
 The Cash Flow and Working Capital page answers the question: **Is profit being converted into cash, or is working capital absorbing cash as the company grows?**
 ![Cash Flow and Working Capital](images/Cash%20Flow%20%26%20Working%20Capital.png)
 
-The company generates positive cash flow from its core business, but profit is not fully converted into cash. In 2025, operating cash flow increased to **€421.3K**, while net income was **€469.4K**, resulting in a cash conversion rate of **88.57%**. This means the company is profitable, but part of the profit is still tied up in working capital instead of being collected as cash. Working capital impact remained negative and reached **-€104.4K in 2025**, suggesting that receivables, inventory, or other working capital items are absorbing cash as the company grows. Management should improve cash collection and working capital discipline instead of focusing only on profit growth. The business has enough cash to support growth, but stronger working capital control is needed to make growth financially sustainable.
+The company generates positive cash flow from its core business, but profit is not fully converted into cash. In 2025, operating cash flow increased to **€421.3K**, while net income was **€469.4K**, resulting in a cash conversion rate of **88.57%**. This indicates that the company is profitable and cash-generative, but some profit is still absorbed by working capital.
+
+Working capital impact remained negative and reached **-€104.4K in 2025**, suggesting that receivables, inventory, or other short-term operating items are using cash as the business grows. This does not indicate an immediate liquidity problem, but it shows that growth is not fully converting into cash at the same pace as profit.
+
+Management should therefore strengthen cash collection and working capital discipline, rather than focusing only on accounting profit. The business has enough cash to support controlled growth, but improving cash conversion is necessary to make growth more financially sustainable.
 
 ### 6.7 AR/AP and Cash Risk
 
 The AR/AP and Cash Risk page answers the question: **Which receivables or payables create the most immediate cash risk?**
 ![AR/AP and Cash Risk](images/AR%20AP%20%26%20Cash%20Risk.png)
 
-Receivables are the main working capital risk, while payables remain limited. Open AR is **€87.08K**, but late & overdue AR reached **€761.43K**, equal to **10.03% of total revenue**. Some overdue receivables are concentrated in high-risk customers such as **Berlin Creative Hub** and **Saxony Startup Studio**. Since open AP exposure is small, the company does not appear to face major short-term supplier payment pressure. Therefore, management should focus more on AR collection than AP management. The priority is to escalate high-risk overdue customers, hold further credit orders where necessary, and tighten payment terms for customers with repeated delays. The key decision is to protect cash flow by collecting overdue receivables faster before allowing more sales on credit.
+Receivables are the main working capital risk, while payables remain limited. Open AR is **€87.08K**, representing the current outstanding receivable balance. In addition, late & overdue AR reached **€761.43K**, equal to **10.03% of total revenue**, indicating that a meaningful portion of sales has either been collected late or remains overdue.
+
+The risk is also concentrated in specific customers, such as **Berlin Creative Hub** and **Saxony Startup Studio**, which should be treated as high-priority collection cases. Since open AP exposure is small, the company does not appear to face major short-term supplier payment pressure. Therefore, management should focus more on AR collection and credit control than AP management.
+
+The priority is to escalate high-risk overdue customers, hold further credit orders where necessary, and tighten payment terms for customers with repeated delays. The key decision is to protect cash flow by reducing late-payment exposure before allowing more sales on credit.
 
 ## 7. Executive Summary
 
 EuroFit Workplace Solutions GmbH is growing profitably and has a strong financial position, but the company should focus on improving the quality and sustainability of growth before expanding aggressively. Total revenue reached **€7.60M**, while net profit reached **€1.04M** and net margin improved, showing that revenue growth is being converted into profit more effectively. EBITDA performance is strong, mainly supported by cost control, with EBITDA reaching **€1.70M** and exceeding budget by **58.67%**.
 
-Revenue growth is mainly driven by **Germany, Hardware, and Direct Sales**, which shows clear growth engines for the business. However, growth is concentrated in a few markets and product categories. Discount pressure is increasing, and overdue AR accounts for **10.03% of revenue**. This means the business is profitable, but part of its revenue is not being converted into cash on time.
+Revenue growth is mainly driven by **Germany, Hardware, and Direct Sales**, which shows clear growth engines for the business. However, growth is concentrated in a few markets and product categories. Discount pressure is increasing, and late & overdue AR accounts for **10.03% of revenue**. This means the business is profitable, but part of its sales has either been collected late or remains overdue, creating pressure on cash conversion.
 
 Therefore, the key management priority should be **controlled profitable growth**. The company should continue investing in high-performing segments, protect gross margin, improve collection discipline, and optimize reviewable costs instead of simply pushing more revenue.
 
@@ -199,7 +221,7 @@ The purpose is not to reduce costs blindly, but to remove waste while protecting
 
 ### 8.4 Strengthen AR collection and credit control
 
-The most urgent risk is overdue AR. The company should implement a risk-based collection policy, hold further credit orders for high-risk overdue customers, and tighten payment terms for customers with repeated delays.
+The most urgent working capital risk is late collection exposure. The company should implement a risk-based collection policy, hold further credit orders for high-risk overdue customers, and tighten payment terms for customers with repeated payment delays.
 
 A practical AR collection policy could be:
 
