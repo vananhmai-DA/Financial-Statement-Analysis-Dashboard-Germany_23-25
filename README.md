@@ -5,6 +5,8 @@
 - [2. Business Problem](#2-business-problem)
 - [3. Report Audience](#3-report-audience)
 - [4. Dataset and Data Model](#4-dataset-and-data-model)
+  - [4.1 Data Model](#41-data-model)
+  - [4.2 Finance Control Checks](#42-finance-control-checks)
 - [5. Design Thinking Process](#5-design-thinking-process)
   - [Empathize](#empathize)
   - [Empathy Map](#empathy-map)
@@ -68,11 +70,25 @@ The report supports decisions related to growth, profitability, cost control, ca
 
 The dataset is a synthetic financial dataset covering monthly data from **2023 to 2025**. It includes revenue, expenses, balance sheet, cash flow, budget, and AR/AP data.
 
+### 4.1 Data Model
+
 The data model mainly uses **Dim_Date** as the central time dimension. Product, channel, and customer fields support revenue analysis, while financial statement tables are analyzed through their own reporting line fields such as cost group, line item, cash flow line, budget line, and aging bucket.
 
 The relationship view below shows the final Power BI data model.
 
-![Data Model](images/Relationship.png)
+![Data Model](images/Relationship.png) 
+
+### 4.2 Finance Control Checks
+
+Before building the dashboard, several finance logic checks were applied to ensure that the analysis is financially consistent and explainable.
+
+| Control Check | Logic | Purpose | Result |
+|---|---|---|---|
+| Gross Profit Check | Gross Profit = Revenue - COGS | Validate core P&L calculation logic | Passed |
+| EBITDA Check | EBITDA = Revenue - COGS - Operating Expenses | Ensure EBITDA is derived consistently from operating drivers | Passed |
+| Net Profit Check | Net Profit = EBITDA - D&A - Finance Cost - Tax | Validate profit conversion from operating profit to bottom-line profit | Passed |
+| EBITDA Variance Check | EBITDA Variance = Revenue Impact + COGS Saving + OPEX Saving | Ensure budget variance is explained by key financial drivers | Passed |
+| AR Definition Check | Late & Overdue AR = paid-late AR + currently overdue open AR | Avoid confusion between historical late collection exposure and current open AR | Passed |
 
 ## 5. Design Thinking Process
 
@@ -100,14 +116,14 @@ This dashboard follows a decision-oriented and insight-driven approach. Instead 
 The Executive Overview page answers the question: **Is the company growing in a financially healthy way?**
 ![Executive Overview](images/Overview.png)
 
-The company shows positive financial growth, with total revenue reaching **€7.60M** and net profit reaching **€1.04M**. Net margin improved in 2025, which shows that revenue growth is being converted into profit more effectively than in previous years. Operating cash flow remained positive, suggesting that the company is not only profitable on paper but is also generating cash from its core business. However, overdue AR reached **€761.3K**, equal to **10.03% of revenue**, creating a working capital risk because part of the company’s revenue has not been collected on time. Therefore, management should continue supporting growth, but should avoid expanding too aggressively until collection performance improves.
+The company shows positive financial growth, with total revenue reaching **€7.60M** and net profit reaching **€1.04M**. Net margin improved in 2025, which shows that revenue growth is being converted into profit more effectively than in previous years. Operating cash flow remained positive, suggesting that the company is not only profitable on paper but is also generating cash from its core business. However, late & overdue AR reached **€761.3K**, equal to **10.03% of revenue**, creating a working capital risk because part of the company’s revenue has not been collected on time. Therefore, management should continue supporting growth, but should avoid expanding too aggressively until collection performance improves.
 
 ### 6.2 P&L Analysis
 
 The P&L Analysis page answers the question: **Is profitability improving because of real operating efficiency or only because of revenue growth?**
 ![P&L Analysis](images/P%26L%20Analysis.png)
 
-Profitability improved mainly because the company controlled costs better than planned. Revenue was slightly above budget by **1.1%**, while COGS was **8.5% lower than budget** and OPEX was **8.3% lower than budget**. As a result, EBITDA reached **€1.70M**, exceeding budget by **58.7%**, with an EBITDA margin of **22.36%**. This shows that the company is not only growing, but also converting revenue into profit more efficiently. However, COGS and OPEX still absorb a large share of revenue, so management should protect gross margin and review major cost groups such as Payroll and Sales & Marketing. The key decision is to understand whether current cost savings are sustainable before using this profit improvement as a basis for aggressive expansion.
+Profitability improved mainly because the company controlled costs better than planned. Revenue was slightly above budget by **1.1%**, while COGS was **8.5% lower than budget** and OPEX was **8.3% lower than budget**. As a result, EBITDA reached **€1.70M**, exceeding budget by **58.7%**, with an EBITDA margin of **22.36%**. The EBITDA variance bridge shows that the outperformance was mainly driven by COGS savings and OPEX savings, rather than revenue growth alone, which means that the company is not only growing, but also converting revenue into profit more efficiently. However, COGS and OPEX still absorb a large share of revenue, so management should protect gross margin and review major cost groups such as Payroll and Sales & Marketing. The key decision is to understand whether current cost savings are sustainable before using this profit improvement as a basis for aggressive expansion.
 
 ### 6.3 Revenue Growth Drivers
 
