@@ -1,4 +1,5 @@
 # Financial Statement Analysis Dashboard | German Market Case Study
+
 ## Table of Contents
 
 - [1. Project Overview](#1-project-overview)
@@ -202,7 +203,7 @@ The recommended strategy is **controlled profitable growth**. The company should
 
 Management should continue investing in **Germany, Hardware, and Direct Sales** because these are the strongest revenue drivers. However, expansion should be linked to margin quality and cash collection performance.
 
-A practical rule is to increase sales and marketing budget for a segment only when it meets three conditions: revenue is growing, gross margin is stable or improving, and overdue AR remains below the company’s risk threshold. If a segment generates high revenue but also requires heavy discounting or creates overdue receivables, management should avoid scaling it too aggressively.
+A practical rule is to increase sales and marketing budget for a segment only when it meets three conditions: revenue is growing, gross margin is stable or improving, and late-payment exposure remains below the company’s risk threshold. If a segment generates high revenue but also requires heavy discounting or creates overdue receivables, management should avoid scaling it too aggressively.
 
 ### 8.2 Introduce a controlled discount approval policy
 
@@ -212,8 +213,8 @@ A practical discount policy could be:
 
 - Discounts below **5%** can be approved by the sales team.
 - Discounts between **5% and 8%** require approval from the Sales Manager or Head of Growth.
-- Discounts above **8%** should only be approved for strategic customers with healthy margin, strong payment history, and no overdue AR.
-- Customers with overdue AR should not receive additional discount or new credit terms until payment issues are resolved.
+- Discounts above **8%** should only be approved for strategic customers with healthy margin, strong payment history, and no currently overdue balances.
+- Customers with repeated late payments or currently overdue balances should not receive additional discounts or new credit terms until payment issues are resolved.
 
 ### 8.3 Optimize costs through productivity, not broad cost cutting
 
@@ -241,7 +242,7 @@ For the current dashboard, customers such as **Berlin Creative Hub** and **Saxon
 
 Since the balance sheet and cash position are strong, the company has room to grow. However, cash should only be deployed into expansion after confirming that growth can be converted into profit and cash sustainably.
 
-A practical cash allocation rule is to keep a minimum cash reserve equal to **3–6 months of fixed operating costs**. Any excess cash can then be used for controlled expansion, automation, collection systems, productivity improvement, or high-margin product lines. The company should avoid using cash for aggressive expansion if overdue AR and discount pressure are not under control.
+A practical cash allocation rule is to keep a minimum cash reserve equal to **3–6 months of fixed operating costs**. Any excess cash can then be used for controlled expansion, automation, collection systems, productivity improvement, or high-margin product lines. The company should avoid using cash for aggressive expansion if late-payment exposure and discount pressure are not under control.
 
 ## 9. Final Conclusion
 
