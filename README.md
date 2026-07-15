@@ -125,7 +125,11 @@ However, late & overdue AR reached **€761.3K**, equal to **10.03% of revenue**
 The P&L Analysis page answers the question: **Is profitability improving because of real operating efficiency or only because of revenue growth?**
 ![P&L Analysis](images/P%26L%20Analysis.png)
 
-Profitability improved mainly because the company controlled costs better than planned. Revenue was slightly above budget by **1.1%**, while COGS was **8.5% lower than budget** and OPEX was **8.3% lower than budget**. As a result, EBITDA reached **€1.70M**, exceeding budget by **58.7%**, with an EBITDA margin of **22.36%**. The EBITDA variance bridge shows that the outperformance was mainly driven by COGS savings and OPEX savings, rather than revenue growth alone, which means that the company is not only growing, but also converting revenue into profit more efficiently. However, COGS and OPEX still absorb a large share of revenue, so management should protect gross margin and review major cost groups such as Payroll and Sales & Marketing. The key decision is to understand whether current cost savings are sustainable before using this profit improvement as a basis for aggressive expansion.
+Profitability improved mainly because the company controlled costs better than planned, rather than relying only on revenue growth. Revenue was slightly above budget by **1.1%**, while COGS was **8.5% lower than budget** and OPEX was **8.3% lower than budget**. As a result, EBITDA reached **€1.70M**, exceeding budget by **58.7%**, with an EBITDA margin of **22.36%**.
+
+The EBITDA variance bridge shows that the outperformance was mainly driven by COGS savings and OPEX savings. This suggests that the company is converting revenue into profit more efficiently, but it also raises an important management question: whether these cost savings are sustainable or only short-term budget underspending.
+
+Therefore, management should protect gross margin, review major cost groups such as Payroll and Sales & Marketing, and avoid using one year of strong cost control as the only basis for aggressive expansion.
 
 ### 6.3 Revenue Growth Drivers
 
